@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3416ACE56D568499B90FF27A /* Pods_SwiftNetworking_SwiftNetworkingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4227C705286FB494BD2409E /* Pods_SwiftNetworking_SwiftNetworkingUITests.framework */; };
+		A5A5DA9A28E5C8AB007E042F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A5DA9928E5C8AB007E042F /* AppDelegate.swift */; };
+		A5A5DA9C28E5C8AB007E042F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A5DA9B28E5C8AB007E042F /* SceneDelegate.swift */; };
+		A5A5DA9E28E5C8AB007E042F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A5DA9D28E5C8AB007E042F /* ViewController.swift */; };
+		A5A5DAA128E5C8AB007E042F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A5DA9F28E5C8AB007E042F /* Main.storyboard */; };
+		A5A5DAA328E5C8AD007E042F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A5DAA228E5C8AD007E042F /* Assets.xcassets */; };
+		A5A5DAA628E5C8AD007E042F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A5DAA428E5C8AD007E042F /* LaunchScreen.storyboard */; };
+		A5A5DAB128E5C8AE007E042F /* SwiftNetworkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A5DAB028E5C8AE007E042F /* SwiftNetworkingTests.swift */; };
+		A5A5DABB28E5C8AE007E042F /* SwiftNetworkingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A5DABA28E5C8AE007E042F /* SwiftNetworkingUITests.swift */; };
+		A5A5DABD28E5C8AE007E042F /* SwiftNetworkingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A5DABC28E5C8AE007E042F /* SwiftNetworkingUITestsLaunchTests.swift */; };
+		ACE184153AF9321430BB3F1D /* Pods_SwiftNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4EC6EA879B1F750B35CCB70 /* Pods_SwiftNetworking.framework */; };
+		EE865E06D645EA48D003ABE3 /* Pods_SwiftNetworkingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC9EEFF648560AA56FFB306 /* Pods_SwiftNetworkingTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5A5DAAD28E5C8AE007E042F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A5DA8E28E5C8AB007E042F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5A5DA9528E5C8AB007E042F;
+			remoteInfo = SwiftNetworking;
+		};
+		A5A5DAB728E5C8AE007E042F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A5DA8E28E5C8AB007E042F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5A5DA9528E5C8AB007E042F;
+			remoteInfo = SwiftNetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		175979608E5910C3A7308B77 /* Pods-SwiftNetworking-SwiftNetworkingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftNetworking-SwiftNetworkingUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftNetworking-SwiftNetworkingUITests/Pods-SwiftNetworking-SwiftNetworkingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3EF0FABA186E1E34C88D5FDB /* Pods-SwiftNetworkingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftNetworkingTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftNetworkingTests/Pods-SwiftNetworkingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		433838441A09995392F7E32F /* Pods-SwiftNetworkingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftNetworkingTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftNetworkingTests/Pods-SwiftNetworkingTests.release.xcconfig"; sourceTree = "<group>"; };
+		50924271BB673CE0F3C8F823 /* Pods-SwiftNetworking-SwiftNetworkingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftNetworking-SwiftNetworkingUITests.release.xcconfig"; path = "Target Support Files/Pods-SwiftNetworking-SwiftNetworkingUITests/Pods-SwiftNetworking-SwiftNetworkingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9B9977BED4F1170232F7CE1C /* Pods-SwiftNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftNetworking.debug.xcconfig"; path = "Target Support Files/Pods-SwiftNetworking/Pods-SwiftNetworking.debug.xcconfig"; sourceTree = "<group>"; };
+		A41ACA79A31ED6E648C9E273 /* Pods-SwiftNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftNetworking.release.xcconfig"; path = "Target Support Files/Pods-SwiftNetworking/Pods-SwiftNetworking.release.xcconfig"; sourceTree = "<group>"; };
+		A5A5DA9628E5C8AB007E042F /* SwiftNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5A5DA9928E5C8AB007E042F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5A5DA9B28E5C8AB007E042F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A5A5DA9D28E5C8AB007E042F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A5A5DAA028E5C8AB007E042F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5A5DAA228E5C8AD007E042F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5A5DAA528E5C8AD007E042F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5A5DAA728E5C8AD007E042F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5A5DAAC28E5C8AE007E042F /* SwiftNetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftNetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5A5DAB028E5C8AE007E042F /* SwiftNetworkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNetworkingTests.swift; sourceTree = "<group>"; };
+		A5A5DAB628E5C8AE007E042F /* SwiftNetworkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftNetworkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5A5DABA28E5C8AE007E042F /* SwiftNetworkingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNetworkingUITests.swift; sourceTree = "<group>"; };
+		A5A5DABC28E5C8AE007E042F /* SwiftNetworkingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNetworkingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A5A5DACB28E6D236007E042F /* NetworkBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkBridge.h; sourceTree = "<group>"; };
+		B4227C705286FB494BD2409E /* Pods_SwiftNetworking_SwiftNetworkingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftNetworking_SwiftNetworkingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4EC6EA879B1F750B35CCB70 /* Pods_SwiftNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC9EEFF648560AA56FFB306 /* Pods_SwiftNetworkingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftNetworkingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5A5DA9328E5C8AB007E042F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE184153AF9321430BB3F1D /* Pods_SwiftNetworking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5A5DAA928E5C8AE007E042F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE865E06D645EA48D003ABE3 /* Pods_SwiftNetworkingTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5A5DAB328E5C8AE007E042F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3416ACE56D568499B90FF27A /* Pods_SwiftNetworking_SwiftNetworkingUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46C468C0B47A47C618086C9B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B9977BED4F1170232F7CE1C /* Pods-SwiftNetworking.debug.xcconfig */,
+				A41ACA79A31ED6E648C9E273 /* Pods-SwiftNetworking.release.xcconfig */,
+				175979608E5910C3A7308B77 /* Pods-SwiftNetworking-SwiftNetworkingUITests.debug.xcconfig */,
+				50924271BB673CE0F3C8F823 /* Pods-SwiftNetworking-SwiftNetworkingUITests.release.xcconfig */,
+				3EF0FABA186E1E34C88D5FDB /* Pods-SwiftNetworkingTests.debug.xcconfig */,
+				433838441A09995392F7E32F /* Pods-SwiftNetworkingTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9DB6094DA55E0C4AB87ADBB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4EC6EA879B1F750B35CCB70 /* Pods_SwiftNetworking.framework */,
+				B4227C705286FB494BD2409E /* Pods_SwiftNetworking_SwiftNetworkingUITests.framework */,
+				EDC9EEFF648560AA56FFB306 /* Pods_SwiftNetworkingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5A5DA8D28E5C8AB007E042F = {
+			isa = PBXGroup;
+			children = (
+				A5A5DA9828E5C8AB007E042F /* SwiftNetworking */,
+				A5A5DAAF28E5C8AE007E042F /* SwiftNetworkingTests */,
+				A5A5DAB928E5C8AE007E042F /* SwiftNetworkingUITests */,
+				A5A5DA9728E5C8AB007E042F /* Products */,
+				46C468C0B47A47C618086C9B /* Pods */,
+				9DB6094DA55E0C4AB87ADBB0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A5A5DA9728E5C8AB007E042F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5A5DA9628E5C8AB007E042F /* SwiftNetworking.app */,
+				A5A5DAAC28E5C8AE007E042F /* SwiftNetworkingTests.xctest */,
+				A5A5DAB628E5C8AE007E042F /* SwiftNetworkingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5A5DA9828E5C8AB007E042F /* SwiftNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				A5A5DA9928E5C8AB007E042F /* AppDelegate.swift */,
+				A5A5DA9B28E5C8AB007E042F /* SceneDelegate.swift */,
+				A5A5DA9D28E5C8AB007E042F /* ViewController.swift */,
+				A5A5DA9F28E5C8AB007E042F /* Main.storyboard */,
+				A5A5DAA228E5C8AD007E042F /* Assets.xcassets */,
+				A5A5DAA428E5C8AD007E042F /* LaunchScreen.storyboard */,
+				A5A5DAA728E5C8AD007E042F /* Info.plist */,
+				A5A5DACB28E6D236007E042F /* NetworkBridge.h */,
+			);
+			path = SwiftNetworking;
+			sourceTree = "<group>";
+		};
+		A5A5DAAF28E5C8AE007E042F /* SwiftNetworkingTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5A5DAB028E5C8AE007E042F /* SwiftNetworkingTests.swift */,
+			);
+			path = SwiftNetworkingTests;
+			sourceTree = "<group>";
+		};
+		A5A5DAB928E5C8AE007E042F /* SwiftNetworkingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A5A5DABA28E5C8AE007E042F /* SwiftNetworkingUITests.swift */,
+				A5A5DABC28E5C8AE007E042F /* SwiftNetworkingUITestsLaunchTests.swift */,
+			);
+			path = SwiftNetworkingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5A5DA9528E5C8AB007E042F /* SwiftNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5A5DAC028E5C8AE007E042F /* Build configuration list for PBXNativeTarget "SwiftNetworking" */;
+			buildPhases = (
+				DB79736F79C1FF25452D9C31 /* [CP] Check Pods Manifest.lock */,
+				A5A5DA9228E5C8AB007E042F /* Sources */,
+				A5A5DA9328E5C8AB007E042F /* Frameworks */,
+				A5A5DA9428E5C8AB007E042F /* Resources */,
+				164EFA4EF88DF43B6DD0DF43 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftNetworking;
+			productName = SwiftNetworking;
+			productReference = A5A5DA9628E5C8AB007E042F /* SwiftNetworking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5A5DAAB28E5C8AE007E042F /* SwiftNetworkingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5A5DAC328E5C8AE007E042F /* Build configuration list for PBXNativeTarget "SwiftNetworkingTests" */;
+			buildPhases = (
+				B7CDD8A3C82862833C678BD1 /* [CP] Check Pods Manifest.lock */,
+				A5A5DAA828E5C8AE007E042F /* Sources */,
+				A5A5DAA928E5C8AE007E042F /* Frameworks */,
+				A5A5DAAA28E5C8AE007E042F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5A5DAAE28E5C8AE007E042F /* PBXTargetDependency */,
+			);
+			name = SwiftNetworkingTests;
+			productName = SwiftNetworkingTests;
+			productReference = A5A5DAAC28E5C8AE007E042F /* SwiftNetworkingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5A5DAB528E5C8AE007E042F /* SwiftNetworkingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5A5DAC628E5C8AE007E042F /* Build configuration list for PBXNativeTarget "SwiftNetworkingUITests" */;
+			buildPhases = (
+				BA21762539286F14D274B951 /* [CP] Check Pods Manifest.lock */,
+				A5A5DAB228E5C8AE007E042F /* Sources */,
+				A5A5DAB328E5C8AE007E042F /* Frameworks */,
+				A5A5DAB428E5C8AE007E042F /* Resources */,
+				7EDDA15E56D63766CE364BDC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5A5DAB828E5C8AE007E042F /* PBXTargetDependency */,
+			);
+			name = SwiftNetworkingUITests;
+			productName = SwiftNetworkingUITests;
+			productReference = A5A5DAB628E5C8AE007E042F /* SwiftNetworkingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5A5DA8E28E5C8AB007E042F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					A5A5DA9528E5C8AB007E042F = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					A5A5DAAB28E5C8AE007E042F = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = A5A5DA9528E5C8AB007E042F;
+					};
+					A5A5DAB528E5C8AE007E042F = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = A5A5DA9528E5C8AB007E042F;
+					};
+				};
+			};
+			buildConfigurationList = A5A5DA9128E5C8AB007E042F /* Build configuration list for PBXProject "SwiftNetworking" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5A5DA8D28E5C8AB007E042F;
+			productRefGroup = A5A5DA9728E5C8AB007E042F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5A5DA9528E5C8AB007E042F /* SwiftNetworking */,
+				A5A5DAAB28E5C8AE007E042F /* SwiftNetworkingTests */,
+				A5A5DAB528E5C8AE007E042F /* SwiftNetworkingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5A5DA9428E5C8AB007E042F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A5DAA628E5C8AD007E042F /* LaunchScreen.storyboard in Resources */,
+				A5A5DAA328E5C8AD007E042F /* Assets.xcassets in Resources */,
+				A5A5DAA128E5C8AB007E042F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5A5DAAA28E5C8AE007E042F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5A5DAB428E5C8AE007E042F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		164EFA4EF88DF43B6DD0DF43 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftNetworking/Pods-SwiftNetworking-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftNetworking/Pods-SwiftNetworking-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftNetworking/Pods-SwiftNetworking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EDDA15E56D63766CE364BDC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftNetworking-SwiftNetworkingUITests/Pods-SwiftNetworking-SwiftNetworkingUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftNetworking-SwiftNetworkingUITests/Pods-SwiftNetworking-SwiftNetworkingUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftNetworking-SwiftNetworkingUITests/Pods-SwiftNetworking-SwiftNetworkingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7CDD8A3C82862833C678BD1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftNetworkingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA21762539286F14D274B951 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftNetworking-SwiftNetworkingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB79736F79C1FF25452D9C31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftNetworking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5A5DA9228E5C8AB007E042F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A5DA9E28E5C8AB007E042F /* ViewController.swift in Sources */,
+				A5A5DA9A28E5C8AB007E042F /* AppDelegate.swift in Sources */,
+				A5A5DA9C28E5C8AB007E042F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5A5DAA828E5C8AE007E042F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A5DAB128E5C8AE007E042F /* SwiftNetworkingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5A5DAB228E5C8AE007E042F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A5DABD28E5C8AE007E042F /* SwiftNetworkingUITestsLaunchTests.swift in Sources */,
+				A5A5DABB28E5C8AE007E042F /* SwiftNetworkingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5A5DAAE28E5C8AE007E042F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5A5DA9528E5C8AB007E042F /* SwiftNetworking */;
+			targetProxy = A5A5DAAD28E5C8AE007E042F /* PBXContainerItemProxy */;
+		};
+		A5A5DAB828E5C8AE007E042F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5A5DA9528E5C8AB007E042F /* SwiftNetworking */;
+			targetProxy = A5A5DAB728E5C8AE007E042F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5A5DA9F28E5C8AB007E042F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A5DAA028E5C8AB007E042F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5A5DAA428E5C8AD007E042F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A5DAA528E5C8AD007E042F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5A5DABE28E5C8AE007E042F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5A5DABF28E5C8AE007E042F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5A5DAC128E5C8AE007E042F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B9977BED4F1170232F7CE1C /* Pods-SwiftNetworking.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftNetworking/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.SwiftNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = SwiftNetworking/NetworkBridge;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5A5DAC228E5C8AE007E042F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A41ACA79A31ED6E648C9E273 /* Pods-SwiftNetworking.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftNetworking/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.SwiftNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = SwiftNetworking/NetworkBridge;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A5A5DAC428E5C8AE007E042F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EF0FABA186E1E34C88D5FDB /* Pods-SwiftNetworkingTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.SwiftNetworkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftNetworking.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftNetworking";
+			};
+			name = Debug;
+		};
+		A5A5DAC528E5C8AE007E042F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 433838441A09995392F7E32F /* Pods-SwiftNetworkingTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.SwiftNetworkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftNetworking.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftNetworking";
+			};
+			name = Release;
+		};
+		A5A5DAC728E5C8AE007E042F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 175979608E5910C3A7308B77 /* Pods-SwiftNetworking-SwiftNetworkingUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.SwiftNetworkingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftNetworking;
+			};
+			name = Debug;
+		};
+		A5A5DAC828E5C8AE007E042F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50924271BB673CE0F3C8F823 /* Pods-SwiftNetworking-SwiftNetworkingUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.SwiftNetworkingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftNetworking;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5A5DA9128E5C8AB007E042F /* Build configuration list for PBXProject "SwiftNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A5DABE28E5C8AE007E042F /* Debug */,
+				A5A5DABF28E5C8AE007E042F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5A5DAC028E5C8AE007E042F /* Build configuration list for PBXNativeTarget "SwiftNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A5DAC128E5C8AE007E042F /* Debug */,
+				A5A5DAC228E5C8AE007E042F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5A5DAC328E5C8AE007E042F /* Build configuration list for PBXNativeTarget "SwiftNetworkingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A5DAC428E5C8AE007E042F /* Debug */,
+				A5A5DAC528E5C8AE007E042F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5A5DAC628E5C8AE007E042F /* Build configuration list for PBXNativeTarget "SwiftNetworkingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A5DAC728E5C8AE007E042F /* Debug */,
+				A5A5DAC828E5C8AE007E042F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5A5DA8E28E5C8AB007E042F /* Project object */;
+}
